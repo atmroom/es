@@ -10,6 +10,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 public class HotelDoc {
+    //hahahha
     private Long id;
     private String name;
     private String address;
