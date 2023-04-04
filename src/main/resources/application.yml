@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: es
+  datasource:
+    druid:
+      url: jdbc:mysql://101.33.247.66:3306/heima?characterEncoding=UTF-8&useSSL=false
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: 13966848941lin.
+  elasticsearch:
+    uris:
+      - http://101.33.247.66:9200
+#    password:
+mybatis:
+  type-aliases-package: com.atguigu.es.pojo\
